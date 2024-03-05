@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layerType="hardware"
+    android:background="@color/white"
+    android:fillViewport="true"
+    tools:context=".Friday">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightBlue"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:titleTextColor="@color/white"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/toolbarTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/full_body"
+                android:textSize="22sp"
+                android:textColor="@color/white"/>
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/lightBlue"
+            android:src="@drawable/mylogo7"
+            android:contentDescription="@string/mikes_fitness_logo_white_dumbbell_to_the_left"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/fridayWO1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/_3_sets_of_dumbbell_dead_lifts_8_15_reps"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/fridayWO1Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:hint="@string/kg_reps"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/fridayWO2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/_3_sets_of_barbell_squats_8_15_reps"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/fridayWO2Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:hint="@string/kg_reps"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/fridayWO3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/_3_sets_of_clean_and_jerk_8_15_reps"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/fridayWO3Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:hint="@string/kg_reps"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/fridayWO4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/_3_sets_of_assisted_pullups_8_15_reps"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/fridayWO4Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:hint="@string/kg_reps"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:id="@+id/fridayWO5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/side_plank_3_sets"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/fridayWO5Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:hint="@string/seconds_each_side"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/fridayWO6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/plank_3_sets"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/fridayWO6Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:hint="@string/seconds"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/fridayWO7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/lat_pull_down_close_grip"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/fridayWO7Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:hint="@string/kg_reps"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/fridayWO8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/leg_raises_3_sets"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/fridayWO8Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:hint="@string/no_of_raises"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:id="@+id/fridayWO9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/_60_sit_ups"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/fridayWO9Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:hint="@string/complete"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+
+
+
+        <Button
+            android:id="@+id/fridaySave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/darkBlue"
+            android:textColor="@color/white"
+            android:text="@string/saveWorkout" />
+    </LinearLayout>
+</ScrollView>

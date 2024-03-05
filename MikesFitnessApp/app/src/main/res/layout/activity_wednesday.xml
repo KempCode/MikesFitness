@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layerType="hardware"
+    android:background="@color/white"
+    android:fillViewport="true"
+    tools:context=".Wednesday">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightBlue"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:titleTextColor="@color/white"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/toolbarTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/back"
+                android:textSize="22sp"
+                android:textColor="@color/white"/>
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/lightBlue"
+            android:src="@drawable/mylogo7"
+            android:contentDescription="@string/mikes_fitness_logo_white_dumbbell_to_the_left"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/wednesdayWO1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/_3_sets_of_lat_pull_downs_8_15_reps_wide_grip"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/wednesdayWO1Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:hint="@string/kg_reps"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/wednesdayWO2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/_4_sets_of_dumbbell_deadlifts_8_15_reps"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/wednesdayWO2Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:hint="@string/kg_reps"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/wednesdayWO3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/_3_sets_of_bent_over_dumbbell_rows_8_15_reps"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/wednesdayWO3Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:hint="@string/kg_reps"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/wednesdayWO4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/_3_sets_of_one_arm_dumbbell_rows_8_15_reps"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/wednesdayWO4Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:hint="@string/kg_reps"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/wednesdayWO5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/_3_sets_of_row_machine_8_15_reps"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/wednesdayWO5Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:hint="@string/kg_reps"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:id="@+id/wednesdayWO6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/_3_sets_of_plate_front_raises_8_15_reps"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/wednesdayWO6Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:hint="@string/kg_reps"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/wednesdayWO7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/_3_sets_of_db_side_curl_8_15_reps"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/wednesdayWO7Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:hint="@string/kg_reps"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/wednesdayWO8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/_60_sit_ups"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/wednesdayWO8Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:minLines="1"
+            android:maxLines="1"
+            android:backgroundTint="@color/darkBlue"
+            android:ems="10"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:hint="@string/complete"
+            android:importantForAutofill="no"
+            android:textColorHint="@color/darkGrey"
+            android:text=""
+            android:textColor="@color/black" />
+
+
+
+        <Button
+            android:id="@+id/wednesdaySave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/darkBlue"
+            android:textColor="@color/white"
+            android:text="@string/saveWorkout" />
+    </LinearLayout>
+</ScrollView>

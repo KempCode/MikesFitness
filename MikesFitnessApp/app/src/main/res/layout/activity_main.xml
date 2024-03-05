@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:src="@drawable/mylogo7"
+            android:background="@color/lightBlue"
+            android:contentDescription="@string/mikes_fitness_logo_white_dumbbell_to_the_left"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/mondayButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/monday"
+            android:backgroundTint="@color/darkBlue"
+            android:textColor="@color/white"/>
+
+
+        <Button
+            android:id="@+id/tuesdayButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tuesday"
+            android:backgroundTint="@color/darkBlue"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/wednesdayButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/wednesday"
+            android:backgroundTint="@color/darkBlue"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/thursdayButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/thursday"
+            android:backgroundTint="@color/darkBlue"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/fridayButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/friday"
+            android:backgroundTint="@color/darkBlue"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/saturdayButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/saturday"
+            android:backgroundTint="@color/darkBlue"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/stretchesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/stretches"
+            android:backgroundTint="@color/darkBlue"
+            android:textColor="@color/white"/>
+
+
+</LinearLayout>
