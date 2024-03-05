@@ -1,5 +1,5 @@
 # MikesFitness
-This fitness app is designed with the sole purpose of tracking weekly increases in weightlifting programs. Created initially for personal use, it allows users to record their workout progress and use it as a guide for the following week.
+This Android fitness app is designed with the sole purpose of tracking weekly increases in weightlifting programs. Created initially for personal use, it allows users to record their workout progress and use it as a guide for the following week.
 ![image](https://github.com/KempCode/MikesFitness/assets/15764472/9688e1ab-8abb-4f0d-a26e-b3d649be64fe)
 
 ## Features
